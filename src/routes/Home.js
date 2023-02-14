@@ -10,7 +10,7 @@ const Home = () => {
             <Video />
             <Footer />
         </div>
+        
     )
 }
-
 export default Home

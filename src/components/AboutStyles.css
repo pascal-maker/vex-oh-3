@@ -1,4 +1,4 @@
-.training {
+.About {
     width: 100%;
     margin: 3rem 0;
     display: grid;
@@ -6,18 +6,18 @@
     height: 100%;
 }
 
-.training .left {
+.About .left {
     text-align: center;
     margin: auto;
     padding: 1rem 4rem;
     max-width: 600px;
 }
 
-.training .left p {
+.About .left p {
     margin: 1.2rem 0;
 }
 
-.training .right {
+.About .right {
     width: 100%;
 }
 
@@ -48,11 +48,11 @@
 }
 
 @media screen and (max-width: 1140px) {
-    .training {
+    .About {
         grid-template-columns: 1fr;
     }
 
-    .training .img {
+    .About .img {
         max-width: 80%;
     }
 

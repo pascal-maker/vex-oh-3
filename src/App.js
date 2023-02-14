@@ -3,16 +3,16 @@ import {Routes, Route} from 'react-router-dom'
 import Contact from './routes/Contact';
 
 import Home from './routes/Home'
-import Pricing from './routes/Pricing'
-import Training from './routes/Training';
+import Download from './routes/Download'
+import About from './routes/About';
 
 function App() {
   return (
     <>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/pricing' element={<Pricing />} />
-        <Route path='/training' element={<Training />} />
+        <Route path='/Download' element={<Download />} />
+        <Route path='/About' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </>
