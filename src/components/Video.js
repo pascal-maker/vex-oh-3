@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './VideoStyles.css'
 
-import vexoVideo from '../assets/vexo.mp4'
+import vexoVideo from '../assets/production.mp4'
 
 const Video = () => {
     return (

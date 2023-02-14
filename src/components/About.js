@@ -3,7 +3,7 @@ import './AboutStyles.css'
 
 import {Link} from 'react-router-dom'
 
-import image from '../assets/image.jpg'
+import pexel from '../assets/pexel.jpg'
 
 
 
@@ -22,7 +22,7 @@ const About = () => {
                         
                     </div>
                     <div className='image-stack bottom'>
-                        <img src={image} className='img' alt='' />
+                        <img src={pexel} className='pexel' alt='' />
                     </div>
                 </div>
             </div>

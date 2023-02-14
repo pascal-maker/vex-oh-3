@@ -47,7 +47,7 @@
     z-index: 5;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 500px) {
     .About {
         grid-template-columns: 1fr;
     }
