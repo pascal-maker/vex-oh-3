@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import DownloadCards from '../components/Download'
-import HeroImage from '../components/HeroImage'
+import friends from '../components/friends'
 
 
 const Download = () => {
     return (
         <div>
             <Navbar />
-            <HeroImage heading='Download.' text='Choose your platform.' />
+            <friends.jpg heading='Download.' text='Choose your platform.' />
             <DownloadCards />
             <Footer />
         </div>
