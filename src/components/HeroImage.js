@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './friendsStyles.css'
+import './HeroImageStyles.css'
 
-class friends extends Component {
+class HeroImage extends Component {
     render() {
         return (
-            <div className='friends'>
+            <div className='hero-img'>
                 <div className='heading'>
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.text}</p>
@@ -14,4 +14,4 @@ class friends extends Component {
     }
 }
 
-export default friends
+export default HeroImage
