@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import DownloadCards from '../components/Download'
-import friends from '../components/friends'
+import friends from '../components/HeroImage'
 
 
 const Download = () => {

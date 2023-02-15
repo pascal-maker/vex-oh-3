@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import friends from '../components/friends'
+import friends from '../components/HeroImage'
 import Navbar from '../components/Navbar'
 import Form from '../components/Form'
 
